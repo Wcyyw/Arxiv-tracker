@@ -1,16 +1,20 @@
 categories: ["cs.CV", "cs.LG", "cs.AI"]
 keywords:
-  - "open vocabulary"
-  - "open-vocabulary"
-  - "open vocabulary segmentation"
-  - "open-vocabulary segmentation"
-  - "vision language model"
-  - "training-free"
-  - "training free"
+  - "Image Restore"
+  - "Image Restoration"
+  - "Super Resolution"
+  - "Super-Resolution"
+  - "prompt" 
+  - "Diffusion Transformer"
+  - "LoRA"
+  - "Pixel Transformer"
+  - "Text-to-Image"
+  - "One Step"
+  - "One-Step"
 
-# exclude_keywords: # 选择排除的关键词
-#   - "Large Language Model"
-#   - "LLM"
+exclude_keywords: # 选择排除的关键词
+   - "Large Language Model"
+   - "LLM"
   
 logic: "AND"                 # 组间逻辑：categories 与 keywords 间 AND/OR
 max_results: 30
@@ -45,8 +49,8 @@ email:
 llm:
   provider: "openai-compatible"     # 兼容 OpenAI SDK 的服务
   # 硅基流动的版本
-  base_url: "https://api.siliconflow.cn"
-  model: "Qwen/Qwen2.5-7B-Instruct"
+  base_url: "https://xiaoai.plus"
+  model: "gpt-4o-mini"
   api_key_env: "OPENAI_COMPAT_API_KEY"
   # Deepseek的版本
   # base_url: "https://api.deepseek.com"
